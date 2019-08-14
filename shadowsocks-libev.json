@@ -1,0 +1,13 @@
+{
+    "server": ["0.0.0.0"],
+    "local_port": 1080,
+    "port_password": {
+        "8000": "test",
+        "8001": "test1"
+    },
+    "plugin":"v2ray-plugin",
+    "plugin-opts":"server;mode=quic;host=yahoo.com",
+    "timeout": 360,
+    "method":"chacha20",
+    "fast_open": true
+}
